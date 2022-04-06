@@ -1,12 +1,12 @@
-import React from 'react'
+import Layout from '../components/Layout'
 
 export default function AboutPage() {
-  console.log('hello world')
+  
   return (
-    <div>
-    <h1>About</h1>
-    <p>This is a tutorial course to become familiar with "Next.js", which I have not used before.</p>
-    <p>created: D. Gurule 04/06/2022</p>
-    </div>
+    <Layout title="About Events">
+      <h1>About</h1>
+      <p>This is a tutorial course to become familiar with "Next.js", which I have not used before.</p>
+      <p>created: D. Gurule 04/06/2022</p>
+    </Layout>
   )
 }
