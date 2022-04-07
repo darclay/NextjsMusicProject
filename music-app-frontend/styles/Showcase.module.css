@@ -1,0 +1,34 @@
+.showcase {
+  height: 300px;
+  width: 100%;
+  background: #000 url('../public/images/images/showcase.jpg') no-repeat center center;
+  color: #fff;
+  display: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.filter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  margin-top: 60px;
+  background-color: rgba(0,0,0,0.7);
+}
+.showcase * {
+  z-index: 20;
+}
+.showcase h1 {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 769px) {
+  .filter {
+    margin-top: 128px;
+  }
+}
